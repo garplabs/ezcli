@@ -1,0 +1,13 @@
+sites:
+  Aston_infra:
+    hosts:
+      gns3_server:
+        ip_address: 10.7.0.18
+        connect_user: gns3
+        fqdn: gns3frontend.garplabs.com
+        description: GNS3 Server
+  Local_infra:
+    hosts:
+      test_docker:
+        ip_address: 172.16.0.1
+        connect_user: dbell
